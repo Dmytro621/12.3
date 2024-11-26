@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Впишiть Завдання</h1>
+    <ul class="list">
+      <div>
+        <li>Завдання 1</li>
+        <button>Видалити</button>
+      </div>
+      <div>
+        <li>Завдання 2</li>
+        <button>Видалити</button>
+      </div>
+      <div>
+        <li>Завдання 3</li>
+        <button>Видалити</button>
+      </div>
+    </ul>
+    <div class="add-list">
+      <input type="text" placeholder="Додати нове Завдання" />
+      <button id="button-add">Додати</button>
+    </div>
+    <style>
+      .list div {
+        display: flex;
+        padding: 5px;
+        gap: 10px;
+        border: 1px solid red;
+        width: max-content;
+      }
+
+      .list {
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+    <script src="./script.js"></script>
+  </body>
+</html>
